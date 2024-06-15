@@ -263,18 +263,11 @@ select option:focus{
    margin: 4rem;
 }
 .man2{
-   width: 38rem;
-   margin: .1rem;
+   width: 36rem;
+   margin: 5rem 0;
    display: none;
 }
-/* .sale-sec , .reverse{
-   max-width: 110rem;
-   margin: 2rem auto;
-    flex-direction: row-reverse;
-      display: flex;
-       align-items: flex-start;
-    justify-content: left;
- }*/
+
  .sale-sec, .reverse {
     max-width: 120rem;
     margin: 2rem auto;
@@ -552,7 +545,7 @@ h5 {
 padding: 0 3rem;background-color: black;
 }
 .swiper-div{
-   padding: 5rem 3rem;
+   padding: 4rem 1rem;
    justify-content: center;
       align-items: center;
       display: flex;
@@ -597,7 +590,7 @@ swiper-container {
   ---------------------------------------- */  
   .footer{
    width: 100%;
-   height: 20vh;
+   /* height: 20vh; */
    background-color: black;
    padding: 2rem 0;
    justify-content: center;
@@ -628,13 +621,13 @@ animation-name: example;
 }
 .linkedin,.github,.youtube{
    color: white;
- width: 5rem;
- height: 5rem;
+ width: 3rem;
+ height: 3rem;
  margin: 1rem;
 }
 .content{
    display: flex;
-   flex-direction: row-reverse;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
 /*   margin-top: 20rem;*/
@@ -724,7 +717,7 @@ animation-name: example;
   justify-content: center;
    align-items: center;
   }
-  .email-sec div{width: 39rem;
+  .email-sec div{width:100%;
    background-color: white;
    padding: 1rem; 
     margin-right: .5rem;
@@ -836,7 +829,7 @@ animation-name: example;
 ----------contact section-------------*/
 
 .section-hero{
-   margin: 5rem;
+   margin: 3rem;
    border-radius: 2rem;
 }
 .container{
@@ -844,7 +837,7 @@ animation-name: example;
    margin: 0 auto ;
 }
 .section-contact{
-   padding: 5rem 7rem;
+   padding: 5rem 1rem;
 }
 .section-contact div input ,#textarea {
    padding: 1.3rem 2rem;
